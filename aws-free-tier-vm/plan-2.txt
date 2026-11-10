@@ -1,0 +1,11 @@
+PART A - IDEMPOTENCY CHECK
+Region: eu-north-1
+Expected result: No changes
+
+ANNOTATION: Terraform compared the current AWS infrastructure with the configuration and found no differences. This proves idempotency.
+
+
+No changes. Your infrastructure matches the configuration.
+
+Terraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.

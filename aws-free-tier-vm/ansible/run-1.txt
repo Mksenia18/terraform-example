@@ -1,0 +1,24 @@
+
+PLAY [Configure web server] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [51.20.254.93]
+
+TASK [Refresh apt cache if older than one hour] ********************************
+ok: [51.20.254.93]
+
+TASK [Install nginx] ***********************************************************
+ok: [51.20.254.93]
+
+TASK [Deploy the web page] *****************************************************
+changed: [51.20.254.93]
+
+TASK [Make sure nginx is enabled and running] **********************************
+ok: [51.20.254.93]
+
+RUNNING HANDLER [Reload nginx] *************************************************
+changed: [51.20.254.93]
+
+PLAY RECAP *********************************************************************
+51.20.254.93               : ok=6    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+

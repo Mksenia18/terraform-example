@@ -17,7 +17,7 @@
 
   vars:
     greeting: "Hello from Ansible"
-    student_name: "change me in playbook.yml"
+    student_name: "Kseniia Maranda"
 
   tasks:
     - name: Refresh apt cache if older than one hour
